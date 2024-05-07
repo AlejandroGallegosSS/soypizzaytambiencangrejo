@@ -2,13 +2,11 @@
 
 int main() {
     int num1, num2, num3;
-
-    // Pedir al usuario que ingrese tres números
-    printf("Ingrese el primer número: ");
+    printf("Ingrese el primer nÃºmero: ");
     scanf("%d", &num1);
-    printf("Ingrese el segundo número: ");
+    printf("Ingrese el segundo nÃºmero: ");
     scanf("%d", &num2);
-    printf("Ingrese el tercer número: ");
+    printf("Ingrese el tercer nÃºmero: ");
     scanf("%d", &num3);
 	
     if (num1 < num2) {
@@ -27,7 +25,7 @@ int main() {
         num3 = temp;
     }
 
-    printf("Los números ordenados de mayor a menor son: %d, %d, %d\n", num1, num2, num3);
+    printf("Los nÃºmeros ordenados de mayor a menor son: %d, %d, %d\n", num1, num2, num3);
 
     int suma;
 }
